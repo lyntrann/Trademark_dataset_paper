@@ -14,28 +14,28 @@ Imagine manually comparing logos across millions of entries—it's like finding 
 
 The story of trademark datasets begins with a few small but influential collections:
 
-- **2009 BelgaLogos:** 
+- [**2009 BelgaLogos:**](https://www-sop.inria.fr/members/Alexis.Joly/BelgaLogos/BelgaLogos.html) 
 ![BelgaLogos](image/image-2.png)
-Created by Alexis Joly and Olivier Buisson with the BELGA press agency and INRIA, BelgaLogos contains 10,000 images across 37 logo classes. These images cover real-world scenes like politics and sports, and each logo is carefully annotated. Its credibility comes from its reputable European news agency roots and its adoption in academic research.
+Created by [Alexis Joly](https://sites.google.com/view/alexis-joly-inria/home) and [Olivier Buisson](https://scholar.google.fr/citations?user=rWunhTEAAAAJ) with the [BELGA press agency](https://www.belga.be/) and [INRIA](https://www.inria.fr/en), BelgaLogos contains 10,000 images across 37 logo classes. These images cover real-world scenes like politics and sports, and each logo is carefully annotated. Its credibility comes from its reputable European news agency roots and its adoption in academic research.
 
-- **2011 FlickrLogos:** 
+- [**2011 FlickrLogos:**](https://www2.informatik.uni-erlangen.de/flickrlogos/) 
 ![FlickrLogos](image/image-3.png)
-Developed by the University of Augsburg, Germany, FlickrLogos started with 8,240 images in 32 logo classes and later expanded to 47. Sourced from Flickr, this dataset quickly became the benchmark for early logo recognition research. It powered the first deep learning models in the field and was praised for its open, well-documented structure—though early versions had incomplete annotations, which were improved in FlickrLogos-47.
-- **2013 MICC Logos:** 
-Produced by the University of Florence, Italy, this dataset contains 720 images across 13 logo classes. It was designed for early logo detection research in cluttered environments, making it a valuable benchmark for testing logo recognition algorithms.
+Developed by the [University of Augsburg](https://www.uni-augsburg.de/en/), Germany, FlickrLogos started with 8,240 images in 32 logo classes and later expanded to 47. Sourced from [Flickr](https://www.flickr.com/), this dataset quickly became the benchmark for early logo recognition research. It powered the first deep learning models in the field and was praised for its open, well-documented structure—though early versions had incomplete annotations, which were improved in FlickrLogos-47.
+- [**2013 MICC Logos:**](http://www.micc.unifi.it/resources/datasets/micc-logo-dataset/) 
+Produced by the [University of Florence](https://www.unifi.it/changelang-eng.html), Italy, this dataset contains 720 images across 13 logo classes. It was designed for early logo detection research in cluttered environments, making it a valuable benchmark for testing logo recognition algorithms.
 
 - **2010 EURO 2008:** 
-Created by TU Graz, this dataset includes 106 challenging images from the UEFA EURO 2008 football championship, featuring 18 trademark instances. It's notable for its real-world complexity—logos are often occluded, blurred, or distorted—but it's not publicly available.
+Created by [TU Graz](https://www.tugraz.at/en/), this dataset includes 106 challenging images from the [UEFA EURO 2008 football championship](https://www.uefa.com/uefaeuro/history/seasons/2008/), featuring 18 trademark instances. It's notable for its real-world complexity—logos are often occluded, blurred, or distorted—but it's **not publicly available.**
 
 ![Selected Logo Datasets Over Time](image/image-4.png) 
 These early datasets were crucial for developing and testing the first logo detection and recognition systems. However, their relatively small size limited their ability to reflect the true diversity and complexity of real-world trademarks.
 
 ## 2015 The Game-Changer: METU Trademark Dataset
 
-The landscape changed dramatically in 2015 with the release of the **METU Trademark Dataset** by Middle East Technical University (METU), Turkey. This dataset included over 930,000 logo images—making it one of the largest public trademark datasets ever assembled. The METU team, led by Prof. Sinan Kalkan, collaborated with Turkish IP organizations and received support from the Turkish Ministry of Science, ensuring both scale and credibility.
+The landscape changed dramatically in 2015 with the release of the [**METU Trademark Dataset**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7153243&isnumber=7153114) by [Middle East Technical University (METU)](https://www.metu.edu.tr/), Turkey. This dataset included over 930,000 logo images—making it one of the largest public trademark datasets ever assembled. The METU team, led by [Prof. Sinan Kalkan](https://kovan.ceng.metu.edu.tr/~sinan/), collaborated with Turkish IP organizations and received support from the [Turkish Ministry of Science](https://www.sanayi.gov.tr/), ensuring both scale and credibility.
 
 ![Selected Logo Datasets by Year](image/image-5.png) 
-METU didn’t stop at sheer size. The second version, released in 2017, improved quality by removing duplicates, adding new similar logos, and expanding the query set. This made METU a dynamic benchmark for researchers, inspiring the development of advanced deep learning models for trademark retrieval.
+METU didn’t stop at sheer size. [The second version](https://arxiv.org/abs/1701.05766), released in 2017, improved quality by removing duplicates, adding new similar logos, and expanding the query set. This made [METU Trademark Dataset (v2)](https://kovan.ceng.metu.edu.tr/LogoDataset/) a dynamic benchmark for researchers, inspiring the development of advanced deep learning models for trademark retrieval.
 
 The true power of the METU Trademark Dataset lies in how it has transformed research and practical applications in trademark retrieval. Thanks to its massive scale—over 900,000 real-world logos from hundreds of thousands of companies—METU has become the gold standard for benchmarking new algorithms and models in this field. Its challenging queries, which include subtle similarities and real infringement cases, push AI systems to their limits and reflect the complexity of real trademark disputes.
 
@@ -50,16 +50,17 @@ As AI research advanced, so did the need for bigger and more diverse datasets.
 
 The chart above highlights just how quickly the scale of trademark datasets exploded between 2015 and 2019. From the 930,000 images in the 2015 METU dataset to nearly two million in 2017’s WebLogo-2M, and then to the more specialized but still sizable Logo-2K+ in 2019, the trend is clear: as AI ambitions grew, so did the appetite for massive, diverse, and challenging datasets. This rapid expansion paved the way for the next generation of logo recognition benchmarks and research.
 
-- **2017 WebLogo-2M:** 
+- [**2017 WebLogo-2M:**](https://weblogo2m.github.io/)
 ![WebLogo-2M](image/image-8.png)
 With approximately 1,867,177 images across 194 logo classes, this dataset was automatically built from Twitter streams. Its massive scale is unmatched, but labels are weak and noisy, reflecting the messy nature of web data. Despite this, it's invaluable for training models to handle real-world variability.
 
-- **2019 Logo-2K+:** 
+- [**2019 Logo-2K+:**](https://github.com/msn199959/Logo-2k-plus-Dataset)
 Aiming for both scale and quality, Logo-2K+ features 167,140 images from 2,341 logo categories. Collected from various websites, it offers high diversity in logo appearance and background, making it ideal for benchmarking modern classification models.
 
-- **2020 LogoDet-3K:** Developed in China, this dataset focuses on logo detection, offering 3,000 logo categories and over 158,000 images. It's designed for training detection models but may lack the style diversity found in METU.
+- [**2020 LogoDet-3K:**](https://github.com/Wangjing1551/LogoDet-3K-Dataset) 
+Developed in China, this dataset focuses on logo detection, offering 3,000 logo categories and over 158,000 images. It's designed for training detection models but may lack the style diversity found in METU.
 
-- **2022 FoodLogoDet-1500:** 
+- [**2022 FoodLogoDet-1500:**](https://paperswithcode.com/dataset/foodlogodet-1500) 
 ![FoodLogoDet-1500](image/image-9.png)
 Specializing in food brand logos, this dataset includes 1,500 categories and about 100,000 images, supporting the growing need for food brand recognition in e-commerce.
 
@@ -73,7 +74,7 @@ Trademark datasets aren't just about quantity—they're about capturing the real
 
 Building a great dataset means ensuring this variety, so AI models can handle the unpredictable nature of logos in the wild.
 
-## Why Should You Care?
+## From Brand Protection to AI Breakthroughs: The Real Reasons Trademark Datasets Matter
 
 Trademark datasets impact more than just researchers:
 
@@ -81,7 +82,7 @@ Trademark datasets impact more than just researchers:
 - Consumers benefit from brand integrity—fewer knock-offs and more trust.
 - Tech enthusiasts see these datasets driving advances in AI, powering everything from search engines to e-commerce recommendations.
 
-### Dataset vs Task Matrix
+### Dataset vs Task 
 
 | Dataset             | Trademark Retrieval | Logo Detection | Legal Analysis |
 |---------------------|:------------------:|:--------------:|:--------------:|
@@ -93,7 +94,4 @@ Trademark datasets impact more than just researchers:
 ## Looking Ahead
 
 The world of trademarks is only getting bigger and more complex. As global commerce continues to grow, the need for smarter, faster trademark retrieval will intensify. Datasets like METU, USPTO, and LogoDet-3K are paving the way for AI systems that can keep up—protecting brands, supporting innovation, and making trademark protection more accessible for everyone.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/51978688/7e11b049-0e4b-401f-8ca2-75754ba535d6/Trademark-Datasets_-A-Story-of-Challenges-and-Progress-1.pdf
 
